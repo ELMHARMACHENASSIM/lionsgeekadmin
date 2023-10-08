@@ -1,0 +1,370 @@
+@import "../../../variables";
+
+nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    .logofront {
+        img {
+            width: 30px;
+            height: 30px;
+            object-fit: fill;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0;
+            font-family: "plusB";
+        }
+    }
+    .mobiledn {
+        li {
+            height: 40px;
+            a {
+                font-weight: bolder;
+            }
+        }
+        li:hover {
+            background-color: $yellow;
+            border-radius: 0.5rem;
+        }
+        .login:hover {
+            background-color: transparent;
+        }
+    }
+    .icon {
+        display: none;
+
+    }
+    .mobilemenu {
+        display: none;
+    }
+}
+
+/* Mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    nav {
+        position: relative;
+        width: 100% !important;
+
+        .logofront {
+            margin: 0 !important;
+            padding: 0 !important;
+            img {
+                width: 30px;
+                height: 30px;
+                object-fit: fill;
+            }
+            h1 {
+                display: none;
+            }
+        }
+        .mobiledn {
+            display: none !important;
+        }
+        .icon {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            i {
+                font-size: 25px;
+                color: $noir;
+                cursor: pointer;
+            }
+            .closeicon{
+                display: none;
+            }
+        }
+        .mobilemenu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding: 10px 0px;
+            background-color: $noir;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            li {
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin: 0 !important;
+                height: 50px;
+                a {
+                    color: white;
+                    background: none !important;
+                    text-align: center;
+                    width: 50%;
+                    font-weight: bolder;
+                }
+            }
+            li:hover a {
+                color:$yellow ;
+                border-radius: 0.5rem;
+            }
+            .login a {
+                color: $yellow;
+                margin: 0 !important;
+            }
+            .login:hover {
+                background-color: transparent;
+            }
+            .deconnect{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+      
+        }
+            .mobileMenuShow {
+                display: block;
+                opacity: 1;
+            }
+        
+      
+    }
+}
+
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    nav {
+        position: relative;
+        width: 100% !important;
+
+        .logofront {
+            margin: 0 !important;
+            padding: 0 !important;
+            img {
+                width: 30px;
+                height: 30px;
+                object-fit: fill;
+            }
+            h1 {
+                display: none;
+            }
+        }
+        .mobiledn {
+            display: none !important;
+        }
+        .icon {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            i {
+                font-size: 25px;
+                color: $noir;
+                cursor: pointer;
+            }
+            .closeicon{
+                display: none;
+            }
+        }
+        .mobilemenu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding: 10px 0px;
+            background-color: $noir;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            li {
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin: 0 !important;
+                height: 50px;
+                a {
+                    color: white;
+                    background: none !important;
+                    text-align: center;
+                    width: 50%;
+                    font-weight: bolder;
+                }
+            }
+            li:hover a {
+                color:$yellow ;
+                border-radius: 0.5rem;
+            }
+            .login a {
+                color: $yellow;
+                margin: 0 !important;
+            }
+            .login:hover {
+                background-color: transparent;
+            }
+            .deconnect{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+      
+        }
+            .mobileMenuShow {
+                display: block;
+                opacity: 1;
+            }
+        
+      
+    }
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        position: relative;
+        width: 100% !important;
+
+        .logofront {
+            margin: 0 !important;
+            padding: 0 !important;
+            img {
+                width: 30px;
+                height: 30px;
+                object-fit: fill;
+            }
+            h1 {
+                display: none;
+            }
+        }
+        .mobiledn {
+            display: none !important;
+        }
+        .icon {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            i {
+                font-size: 25px;
+                color: $noir;
+                cursor: pointer;
+            }
+            .closeicon{
+                display: none;
+            }
+        }
+        .mobilemenu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding: 10px 0px;
+            background-color: $noir;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            li {
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin: 0 !important;
+                height: 50px;
+                a {
+                    color: white;
+                    background: none !important;
+                    text-align: center;
+                    width: 50%;
+                    font-weight: bolder;
+                }
+            }
+            li:hover a {
+                color:$yellow ;
+                border-radius: 0.5rem;
+            }
+            .login a {
+                color: $yellow;
+                margin: 0 !important;
+            }
+            .login:hover {
+                background-color: transparent;
+            }
+            .deconnect{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+      
+        }
+            .mobileMenuShow {
+                display: block;
+                opacity: 1;
+            }
+        
+      
+    }
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+    nav {
+      
+        .logofront {
+            margin: 0 !important;
+            img {
+                width: 30px;
+                height: 30px;
+                object-fit: fill;
+            }
+            h1 {
+                font-size: 28px;
+                margin: 0;
+                font-family: "plusB";
+            }
+        }
+        .mobiledn {
+            display: flex ;
+            justify-content: end !important;
+            align-items: center !important;
+            flex: 1;
+            li {
+                height: 40px;
+                a {
+                    font-weight: bolder;
+                }
+            }
+            li:hover {
+                background-color: $yellow;
+                border-radius: 0.5rem;
+            }
+            .login:hover {
+                background-color: transparent;
+            }
+        }
+        .icon {
+            display: none;
+    
+        }
+        .mobilemenu {
+            display: none;
+        }
+    }}}

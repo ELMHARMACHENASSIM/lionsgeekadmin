@@ -1,0 +1,51 @@
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+//* Mes variables couleurs :
+$yellow: #ffc801;
+$line: #eeeeee;
+$noir: #333333;
+$gris: #757575;
+$valid: #357a38;
+$wrong: #aa2e25;
+$body-bg : #f9f9f9;
+$purple:#D6C8FF;
+$purple-strock:#A384FF;
+$purple-text:#131C6D;
+$ambre:#FFEBB7;
+$ambre-strock:#E7C160;
+$ambre-text:#684D08;
+$green:#427A5B ;
+$bg-green:#DEEDE5 ;
+$brown:#938406 ;
+$bg-brown:#FDF8CE ;
+
+
+
+$custom-colors: (
+    "yellow": $yellow,
+    "line":$line,
+    "noir": $noir,
+    "gris": $gris,
+    "success": $success,
+    "wrong": $wrong,
+    "body-bg": $body-bg,
+    "purple" : $purple,
+    "purple-stroke" : $purple-strock,
+    "purple-text" : $purple-text,
+    "ambre" : $ambre,
+    "ambre-stroke" : $ambre-strock,
+    "ambre-text" : $ambre-text,
+    "green" : $green,
+    "brown": $brown,
+    "bg-green" : $bg-green,
+    "bg-brown": $bg-brown,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;

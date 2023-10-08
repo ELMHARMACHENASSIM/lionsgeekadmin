@@ -1,0 +1,44 @@
+
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import './variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import './modules/allmodules';
+
+// *plus
+@font-face {
+    font-family: "plusR";
+    src: url("../../public/fonts/PlusJakartaSans-Regular.ttf");
+}
+
+// *plus
+@font-face {
+    font-family: "plusM";
+    src: url("../../public/fonts/PlusJakartaSans-Medium.ttf");
+}
+
+// *plus
+@font-face {
+    font-family: "plusB";
+    src: url("../../public/fonts/PlusJakartaSans-SemiBold.ttf");
+}
+
+// *monospace
+@font-face {
+    font-family: "Spacemono";
+    src: url("../../public/fonts/SpaceMono-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "plusR";
+    color: $noir;
+    box-sizing: border-box;
+
+}
+

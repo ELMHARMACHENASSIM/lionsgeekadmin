@@ -1,0 +1,141 @@
+@import "../../../variables";
+.main{
+    height: 80vh;
+    .desc{
+        h5{
+            letter-spacing: 1px;
+            font-size: 15px;
+        }
+        h1{
+            font-family: "plusB";
+            font-size: 35px;
+            line-height: 45px;
+        }
+        button{
+            font-size: 15px;
+        }
+    }
+    img{
+        width: 650px;
+    }
+}
+
+/* Mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .main{
+        height: 80vh;
+        .desc{
+            width: 100% !important;
+            text-align: center;
+            h5{
+                letter-spacing: 1px;
+                font-size: 15px;
+            }
+            h1{
+                font-family: "plusB";
+                font-size: 35px;
+                line-height: 45px;
+            }
+            button{
+                font-size: 15px;
+            }
+        }
+        img{
+            display: none;
+        }
+    }
+}
+
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .main{
+        height: 80vh;
+        .desc{
+            width: 100% !important;
+            text-align: center;
+            h5{
+                letter-spacing: 1px;
+                font-size: 15px;
+            }
+            h1{
+                font-family: "plusB";
+                font-size: 35px;
+                line-height: 45px;
+            }
+            button{
+                font-size: 15px;
+            }
+        }
+        img{
+            display: none;
+        }
+    }}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main{
+        height: 80vh;
+        .desc{
+            h5{
+                letter-spacing: 1px;
+                font-size: 15px;
+            }
+            h1{
+                font-family: "plusB";
+                font-size: 35px;
+                line-height: 45px;
+            }
+            button{
+                font-size: 15px;
+            }
+        }
+        img{
+            width: 650px;
+        }
+    }}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .main{
+        height: 80vh;
+        .desc{
+            h5{
+                letter-spacing: 1px;
+                font-size: 15px;
+            }
+            h1{
+                font-family: "plusB";
+                font-size: 35px;
+                line-height: 45px;
+            }
+            button{
+                font-size: 15px;
+            }
+        }
+        img{
+            width: 650px;
+        }
+    }}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+    .main{
+        height: 80vh;
+        .desc{
+            h5{
+                letter-spacing: 1px;
+                font-size: 15px;
+            }
+            h1{
+                font-family: "plusB";
+                font-size: 35px;
+                line-height: 45px;
+            }
+            button{
+                font-size: 15px;
+            }
+        }
+        img{
+            width: 650px;
+        }
+    }}

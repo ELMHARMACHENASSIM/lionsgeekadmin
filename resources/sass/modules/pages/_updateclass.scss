@@ -1,0 +1,163 @@
+.content {
+    .tabscontent {
+        width: 100%;
+        padding-top: 50px;
+
+        .btnclick {
+            min-width: max-content;
+            text-align: center;
+        }
+
+        .maintabcontent {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .updateclass {
+                margin-left: auto;
+                margin-right: auto;
+                width: 600px;
+                height: auto;
+
+                form {
+                    width: 100%;
+
+                    .heading {
+                        color: $yellow;
+                        font-size: 20px;
+                    }
+
+                    .labelinput {
+                        width: 100%;
+                        padding-bottom: 15px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: start;
+                        flex-direction: column;
+
+                        input {
+                            width: 100%;
+                            // height: 40px;
+                            padding: 5px;
+                        }
+
+                        .inputfile {
+                            border: 1px solid #000;
+                            height: 40px;
+                            padding: 0;
+                        }
+                    }
+
+                    button {
+                        margin-top: 15px;
+                        width: 50%;
+                        height: 40px;
+                        background-color: $noir;
+                        color: #fff;
+                        font-size: 14px;
+                    }
+                }
+
+                .headerupdate {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .classes-images {
+                    padding-top: 50px;
+                    width: 100%;
+                    .images {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 20px;
+                        
+                        border-bottom: 1px solid $line;
+                        .imageclass {
+                            width: 120px;
+                            height: 120px;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                object-position: center;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+                    .formul {
+                        width: fit-content;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                       i{
+                        font-size: 25px;
+                       }
+
+                        .deletbtn {
+                            background: none;
+                            border: none;
+                            outline: none;
+                            
+                        }
+                    }
+                }
+            }
+
+            .imageupdate {
+                width: 100%;
+
+                .updateclass {
+                    width: 100%;
+
+                    .headerupdate {
+                        h1 {
+                            font-size: 20px;
+                            margin: 0;
+                        }
+
+                        form {
+                            width: auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: start;
+                            flex-direction: column;
+                            gap: 10px;
+
+                            .labelinput {
+                                padding: 0;
+                                min-width: max-content;
+
+                                .labelupload {
+                                    display: flex;
+                                    width: 100%;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-color: #cac6c6;
+                                    height: 40px;
+                                    padding: 0 15px;
+                                    color: $noir;
+                                    border-radius: 10px;
+                                    cursor: pointer;
+                                }
+                            }
+
+                            .btnupdate {
+                                width: auto;
+                                padding: 5px 20px;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+button.active {
+    background-color: $yellow !important;
+    color: $noir !important;
+}

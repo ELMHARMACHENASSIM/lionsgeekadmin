@@ -1,0 +1,165 @@
+.classes{
+    background-color: #f1f1f1;
+    height: fit-content;
+    .descri{
+        h1{
+            font-family: "plusM";
+            font-size: 30px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .classImages{
+        .image{
+            position: relative;
+            height: fit-content;
+            width: fit-content;
+            img{
+                width: 260px;
+                height: 290px;
+                filter: brightness(0.4);
+                border-radius: 30px;
+                object-fit: cover;
+            }
+            .text{
+                position: absolute;
+                bottom: 10%;
+                width: 100%;
+                
+                h1{
+                    font-size: 24px;
+                    text-align: center;
+                }
+                h4{
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+// ***material
+.materialImage{
+    width: 300px;
+    height: 290px;
+    box-shadow: 0px 8px 24px 0px rgba(140, 149, 159, 0.064);
+    border-radius: 10px;
+
+    background-color: white;
+    .image{
+        img{
+            width: 270px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+    .text{
+        width:269px ;
+        h1{
+            font-size: 14px;
+            font-family: "plusM";
+        }
+        .desc{
+            h4,h5{
+                font-size: 14px;
+            }
+        }
+    }
+}
+.studioImage{
+    width: 300px;
+    height: 260px;
+    box-shadow: 0px 8px 24px 0px rgba(140, 149, 159, 0.064);
+    border-radius: 10px;
+
+    background-color: white;
+    .image{
+        img{
+            width: 270px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+    .text{
+        width:265px ;
+        h1{
+            font-size: 14px;
+            font-family: "plusM";
+        }
+       h4{
+        font-size: 14px;
+       }
+       button{
+        font-size: 12px;
+       }
+        
+    }
+}
+/* Mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .classes{
+        padding: 50px 0 !important;
+        background-color: #f1f1f1;
+        height: fit-content;
+        .descri{
+            width: 100% !important;
+            h1{
+                font-family: "plusM";
+                font-size: 30px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .classImages{
+            .image{
+                position: relative;
+                height: fit-content;
+                width: fit-content;
+                img{
+                    width: 260px;
+                    height: 290px;
+                    filter: brightness(0.4);
+                    border-radius: 30px;
+                    object-fit: cover;
+                }
+                .text{
+                    position: absolute;
+                    bottom: 10%;
+                    width: 100%;
+                    
+                    h1{
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                    h4{
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }}
+
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Your styles for iPads and tablets go here */
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for small screens and laptops go here */
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Your styles for desktops and large screens go here */
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+    /* Your styles for extra large screens and TVs go here */
+}

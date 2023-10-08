@@ -1,0 +1,104 @@
+.content {
+    .containerme {
+        h1 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .tablemainhistorique {
+            margin-top: 40px;
+            width: 100%;
+
+            tr {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+                height: 60px;
+
+                .infomember {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 10px;
+                    height: 100%;
+
+                    .img {
+                        width: 40px;
+                        height: 40px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 20px;
+                        margin: 0;
+                    }
+                }
+
+                .interne {
+                    color: $brown;
+                    background-color: $bg-brown;
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+
+                .extern {
+                    color: $green;
+                    background-color: $bg-green;
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+
+                .gstudio {
+                    color: $wrong;
+                    background-color: rgba(207, 243, 109, 0.856);
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+
+                .gsalle {
+                    color: $valid;
+                    background-color: rgba(158, 244, 158, 0.856);
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+            }
+
+            td {
+                .iconcolor {
+                    color: rgba(0, 0, 0, 0.404);
+                }
+
+                .iconcolorred {
+                    color: red;
+                }
+
+                .btnshowreserve{
+                    background-color: $noir;
+                    color: #fff;
+                    padding: 5px 15px;
+                    border-radius: 5px;
+                    outline: none;
+                    border: none;
+
+                }
+
+                span {
+                    color: $yellow;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+.elipsis{
+    white-space: nowrap; 
+    width: 350px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

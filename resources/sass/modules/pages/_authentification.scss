@@ -1,0 +1,189 @@
+@import "../../variables";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "plusR";
+    color: $noir;
+}
+
+
+.holder {
+    height: 100vh;
+    width: 100vw !important;
+
+    .height {
+        height: 80vh;
+
+        .image {
+            text-align: center;
+
+            img {
+                width: 190px;
+            }
+        }
+    }
+
+    .lions {
+        font-family: "spacemono";
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .row {
+        box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+    }
+
+    .bienvenu {
+        width: 75%;
+
+        h1 {
+            font-family: "plusB";
+            font-size: 33px;
+        }
+
+        h4 {
+            font-size: 17px;
+        }
+    }
+
+    .form {
+        width: 75%;
+
+        div {
+            label {
+                font-family: "plusM";
+                font-size: 16px;
+            }
+
+            input {
+                height: 40px;
+                outline: none;
+                border: 1px solid $gris ;
+                opacity: 0.5;
+
+            }
+        }
+    }
+
+    .oublie {
+        h5 {
+            font-size: 14px;
+            text-align: end;
+        }
+    }
+
+    button {
+        width: 100%;
+        border: none;
+        height: 45px;
+        font-family: "plusM";
+    }
+}
+
+//************ responsive
+@media (min-width: 768px) and (max-width: 1000px) {
+    .holder {
+
+        .height {
+            height: 75vh;
+
+            .image {
+                img {
+                    width: 140px;
+                }
+            }
+        }
+
+        .lions {
+            font-size: 20px;
+        }
+
+        .bienvenu {
+            width: 80%;
+
+            h1 {
+                font-size: 27px;
+            }
+
+            h4 {
+                font-size: 14px;
+            }
+        }
+
+        .form {
+            width: 80%;
+
+            div {
+                label {
+                    font-family: "plusM";
+                    font-size: 14px;
+                }
+
+                input {
+                    height: 35px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .oublie {
+            h5 {
+                font-size: 12px;
+            }
+        }
+
+        button {
+            width: 100%;
+            border: none;
+            height: 38px;
+        }
+    }
+}
+
+// *** responsible tablet
+@media (min-width: 320px) and (max-width: 767px) {
+    .holder {
+        height: 90vh;
+
+        .bienvenu {
+            width: 85%;
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 14px;
+            }
+        }
+
+        .form {
+            width: 85%;
+
+            div {
+                label {
+                    font-size: 14px;
+                }
+
+                input {
+                    height: 38px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .oublie {
+            h5 {
+                font-size: 12px;
+            }
+        }
+
+        button {
+            width: 100%;
+            border: none;
+            height: 40px;
+        }
+    }
+}

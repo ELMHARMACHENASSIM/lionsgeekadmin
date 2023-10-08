@@ -1,0 +1,118 @@
+.containerme{
+height: auto;
+    .reserve{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-size: 20px;
+            font-weight: 600;
+            color: $noir;
+        }
+        a{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+            background-color: $noir;
+            color: white;
+            height: 40px;
+            padding:10px 20px ;
+            border-radius: 10px;
+
+        }
+    }
+    .slidecontent{
+        padding-top: 20px;
+        width: 70%;
+        margin: 0 auto;
+        height: 600px;
+        padding-bottom: 40px;
+        .slideitems{
+            width: 100%;
+            height: 100%;
+            .slideimage{
+                width: 100%;
+            height: 100%; 
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover; 
+            } 
+            }
+        }
+    }
+}
+/* Mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .containerme{
+        margin-top: 70px;
+        height: auto;
+            .reserve{
+                width: 100%;
+                margin: 0 auto;
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h1{
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: $noir;
+                }
+                a{
+                    display: flex;
+                justify-content: center;
+                align-items: center;
+                    background-color: $noir;
+                    color: white;
+                    height: 40px;
+                    padding:10px 20px ;
+                    border-radius: 10px;
+        
+                }
+            }
+            .slidecontent{
+                padding-top: 20px;
+                width: 100%;
+                margin: 0 auto;
+                height: 600px;
+                padding-bottom: 40px;
+                .slideitems{
+                    width: 100%;
+                    height: 100%;
+                    .slideimage{
+                        width: 100%;
+                    height: 100%; 
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover; 
+                    } 
+                    }
+                }
+            }
+        }
+}
+
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Your styles for iPads and tablets go here */
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for small screens and laptops go here */
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Your styles for desktops and large screens go here */
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+    /* Your styles for extra large screens and TVs go here */
+}

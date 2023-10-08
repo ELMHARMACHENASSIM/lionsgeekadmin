@@ -1,0 +1,91 @@
+@import "../../variables";
+
+.fc-state-active {
+    background-color: $yellow !important;
+    color: white;
+}
+
+.fc-state-default {
+    background-image: none !important;
+}
+
+.fc-button {
+    background-color: transparent;
+    border: none !important;
+    outline: none !important;
+    text-shadow: none !important;
+}
+
+.fc-button:hover {
+    background-image: none;
+    box-shadow: none;
+    background-color: $ambre !important;
+    color: black;
+}
+
+
+.fc-today-button.fc-state-default {
+    background-color: $yellow !important;
+    font-weight: bold !important;
+}
+
+.fc-today-button.fc-state-disabled {
+    background-color: white !important;
+    // filter: saturate(50%);
+}
+
+// .fc-listDay-button,
+// .fc-listWeek-button,
+// .fc-listMonth-button {
+//     border: 1px solid $yellow !important;
+// }
+
+.fc-day-header {
+    border: none !important;
+}
+
+// list header
+.fc-unthemed .fc-list-heading td {
+    background-color: #f8f7e9 !important;
+}
+
+// .fc-axis.fc-time.fc-widget-content{
+//     width: 75px;
+// }
+
+.fc-time {
+    span {
+        font-weight: bold;
+    }
+}
+
+.fc-center {
+
+    padding-top: 20px;
+    padding-inline: 60px;
+}
+
+.fc-agendaWeek-button,
+.fc-agendaDay-button,
+.fc-month-button {
+    border-radius: 10px !important;
+    width: 70px;
+    margin-left: 5px !important;
+}
+
+.fc-event-container {
+    width: 99% !important;
+}
+
+.fc-content {
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.fc-time-grid .fc-slats .fc-minor td {
+    border: none;
+}

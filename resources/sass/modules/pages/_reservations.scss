@@ -1,0 +1,87 @@
+@import "../../variables";
+
+// #title:focus{
+//     box-shadow: 0px 0px 10px $yellow;
+// }
+
+.col-30 {
+    width: 30%;
+}
+.calen{
+    font-size: 13px;
+}
+.imgslid{
+    
+    width: 60%;
+    height: 80%;
+    margin: 10px 0;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+// .modalRadius {
+//     border-radius: 8% !important;
+//     // background-color: red;
+// }
+
+.studioReservationForm{
+    button.active{
+        color: white !important;
+    }
+    .inputHolder{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 40%;
+        label{
+            font-weight: bold;
+        }
+    }
+    .btnStudioRes{
+        border-radius: 15px;
+    }
+    .materialImageRes{
+        padding: 10px;
+        img{
+            width: 65px;
+        }
+    }
+}
+
+.scrollMaterial{
+    overflow-y: scroll;
+    height: 40vh;
+}
+
+
+
+
+/* Mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    
+}
+
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Your styles for iPads and tablets go here */
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for small screens and laptops go here */
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Your styles for desktops and large screens go here */
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+    /* Your styles for extra large screens and TVs go here */
+}

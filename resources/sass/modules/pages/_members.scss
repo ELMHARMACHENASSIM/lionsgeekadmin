@@ -1,0 +1,111 @@
+.content {
+    .containerme {
+        // padding: 50px;
+        background-color: #ffffff;
+
+        .main-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .info {
+                h1 {
+                    margin: 0;
+                    font-size: 25px;
+                    font-family: "plusB";
+                    font-weight: 500;
+                }
+                p {
+                    margin: 0;
+                    color: $gris;
+                    font-size: 13px;
+
+                }
+            }
+
+            a {
+                padding: 5px 10px;
+                background-color: $noir;
+                color: #fff;
+                border-radius: 5px;
+
+                i {
+                    margin-right: 3px;
+                }
+                span{
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .tablemain {
+            margin-top: 40px;
+            width: 100%;
+            tr {
+                height: 60px;
+
+                .infomember {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 15px;
+                    height: 100%;
+
+                    .img {
+                        width: 38px;
+                        height: 38px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 16px;
+                        margin: 0;
+                    }
+                }
+
+                .interne {
+                    color: $valid;
+                    background-color: rgba(158, 244, 158, 0.856);
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+
+                .extern {
+                    color: $wrong;
+                    background-color: rgba(207, 243, 109, 0.856);
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+
+                .gestionnaire_studio {
+                    color: $brown;
+                    background-color:$bg-brown;
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+
+                .gestionnaire_classe {
+                    color: $green;
+                    background-color: $bg-green;
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+            }
+            td {
+                .iconcolor {
+                    color: rgba(0, 0, 0, 0.404);
+                }
+                .iconcolorred {
+                    color: $wrong;
+                }
+            }
+        }
+    }
+
+}
